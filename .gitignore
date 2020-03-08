@@ -9,9 +9,12 @@
 /coverage
 
 # next.js
-/.next/
-/out/
-!public/
+/.next
+/out
+!public
+
+# zeit
+/.now
 
 # production
 /build
