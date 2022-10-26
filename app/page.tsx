@@ -7,12 +7,13 @@ export default function Home() {
   return (
     <main className="flex justify-center px-4 py-4">
       <div className="max-w-xl rounded overflow-hidden shadow-lg">
-        <Image src={cover} alt="Ocean Sunset" className="w-full" />
+        <Image src={cover} alt="Ocean Sunset" className="w-full" priority />
         <div className="flex justify-left mx-6 -mt-12">
           <Image
             src={profile}
             alt="Ricky Gilbert"
             className="h-40 w-40 rounded-full border-white border-2 -mt-12 shadow-lg"
+            priority
           />
         </div>
 
