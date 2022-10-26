@@ -1,14 +1,12 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  future: {
-    purgeLayersByDefault: true,
+  content: [
+    './app/**/*.{js,ts,jsx,tsx}', // Note the addition of the `app` directory.
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {},
   },
-  purge: {
-    content: [
-      './components/**/*.{js,ts,jsx,tsx}',
-      './pages/**/*.{js,ts,jsx,tsx}',
-    ],
-  },
-  theme: {},
-  variants: {},
   plugins: [],
 };
