@@ -1,36 +1,56 @@
 export default function Home() {
   return (
-    <div className="outline-background grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] outline sm:p-20">
-      <main className="outline-background row-start-2 flex flex-col items-center gap-[32px] outline">
-        <h1 className="text-5xl font-bold">gilbert.io</h1>
-        <p>ricky@gilbert.io</p>
-        <div className="flex flex-col items-center gap-4 sm:flex-row">
-          <a
-            href="https://twitter.com/rickygilbe"
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          >
-            x
-          </a>
-          <a
-            href="https://www.instagram.com/rickygi/"
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          >
-            instagram
-          </a>
-          <a
-            href="https://github.com/rickygi"
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          >
-            github
-          </a>
-          <a
-            href="https://www.linkedin.com/in/rickygi/"
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          >
-            linkedin
-          </a>
+    <div className="outline-background flex flex-1 flex-col outline">
+      {/* Hero */}
+      <main className="outline-background flex flex-1 flex-col justify-center px-6 py-12 outline">
+        <div className="outline-background mx-auto w-full max-w-2xl text-center outline">
+          <h1 className="text-5xl font-bold">Ricky Gilbert</h1>
+          <p className="text-foreground/60 mt-12 text-2xl">
+            Bradenton, Florida
+          </p>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="outline-background mt-auto outline">
+        <div className="mx-auto max-w-7xl px-6 py-8">
+          <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+            <a
+              href="https://github.com/rickygi"
+              className="text-foreground/60 hover:text-foreground transition"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://twitter.com/rickygilbe"
+              className="text-foreground/60 hover:text-foreground transition"
+            >
+              X
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rickygi/"
+              className="text-foreground/60 hover:text-foreground transition"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://www.instagram.com/rickygi/"
+              className="text-foreground/60 hover:text-foreground transition"
+            >
+              Instagram
+            </a>
+          </nav>
+
+          <p className="mt-4 text-center text-sm">
+            <a
+              href="mailto:ricky@gilbert.io"
+              className="text-foreground/60 hover:text-foreground transition"
+            >
+              ricky@gilbert.io
+            </a>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

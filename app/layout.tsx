@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'gilbert.io',
+  title: 'Ricky Gilbert',
   description: 'ricky@gilbert.io'
 };
 
