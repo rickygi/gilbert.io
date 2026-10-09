@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* Docs aren't markup: their words would otherwise generate classes */
+@source not '../*.md';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
