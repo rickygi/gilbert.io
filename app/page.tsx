@@ -22,7 +22,7 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://twitter.com/rickygilbe"
+              href="https://x.com/rickygi"
               className="text-foreground/60 hover:text-foreground transition"
             >
               X
